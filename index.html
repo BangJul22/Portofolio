@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---boostrab-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <!---end boostrab-->
+    <title>Portofolio</title>
+     <!---google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Asap+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Slabo+27px&family=Voltaire&display=swap" rel="stylesheet">
+    <!---end google font-->
+
+    <style>
+        *{
+            font-family: "Slabo 27px", serif;
+        }
+        .nav-text{
+            color: aqua;
+            font-size: 25px;
+        }
+        .nav-text:hover{
+            font-weight: bold;
+            color: white;
+        }
+        .image img {
+          border-radius: 50%;
+          border: 10px solid #fff;
+          box-shadow: 0px 10px 15px -3px rgba(41, 180, 245, 0.87);
+        }
+        .images img{
+          border-radius: 20%;
+          box-shadow: 0px 10px 15px -3px rgba(236, 99, 45, 0.87);
+        }
+        .Project {
+            margin: 20px auto 0px auto;
+            width: 95%;
+            max-width: 1200px;
+        }
+        .mycomen {
+            width: 95%;
+            max-width: 500px;
+            background-color: #FBFB87;
+            margin: 20px auto 0px auto;
+            padding: 20px;
+            box-shadow: 0px 0px 3px 0px rgb(33, 238, 187);
+        }
+        .mybtn {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .mybtn > button {
+            margin-right: 10px;
+        }
+        .home{
+          background-color: #aa4969ef;
+          padding-left: 10%;
+          border-left: 10%;
+        }
+        .profil{
+          background-color: #a34363;
+        }
+        .lead{
+          color: white;
+        }
+        .font{
+          color:white;
+        }
+        .tytel   {
+          margin-right: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+    </style>
+</head>
+ 
+<body>
+    <!---navbar-->
+    <section id="navbar">
+      <div class="container-fluid px-0 ">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom"
+        style="background-color: black; position: fixed; width: 100%;z-index: 99;">
+          <div class="col-md-3 mb-2 mb-md-0">
+            <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+              <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+            </a>
+          </div>
+    
+          <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="#home" class="nav-link nav-text">Home</a></li>
+            <li><a href="#Profil" class="nav-link nav-text">Profil</a></li>
+            <li><a href="#Project" class="nav-link nav-text">Project</a></li>
+            <li><a href="#contact" class="nav-link nav-text">contact</a></li>
+          </ul>
+    
+          <div class="col-md-3 text-end">
+            <button type="button" class="btn btn-outline-primary me-2">Login</button>
+            <button type="button" class="btn btn-primary">Sign-up</button>
+          </div>
+        </header>
+    </section>
+      <!---end navbar-->
+
+      <!---home-->
+      <section id="home" class="home">
+        <div class="container col-xxl-8 px-4 py-5">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="images col-10 col-sm-8 col-lg-6">
+              <img src="img/this_is.jpg.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="400" height="600" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+              <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hey, i'm Jul</h1>
+              <p class="font">Keahlian Full Stack web Development, Sekarang Sedang Magang Di Learning X</p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Jangan Di Klik</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---end home-->
+  
+      <!---profil--->
+      <section id="Profil" class="profil">
+        <div class="container col-xxl-8 px-4 py-5">
+          <div class="row flex-lg-row align-items-center g-5 py-5">
+            <div class="image col-md-3 col-sm-8 col-lg-2">
+              <img src="img/this_is.jpg.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="250" height="400" loading="lazy">
+            </div>
+            <div class="col-lg-10">
+              <h3 class="display-4 fw-bold text-body-emphasis 2h-2 mb-2">Hey, i'm Jul</h3>
+              <p class="lead"> Hai, Saya Julkifli Mahasiswa MSIB dari Perguruan Tinggi STKIP Taman Siswa Bima, Saya sekarang semester 8, sebelum mengikuti MSIB saya memiliki ketertarik dalam mengedit video cinematic dan jedag jedug sekarang saya ingin memlulai lagi hal baru yaitu dengan mengikuti Studi Independent di Learning X dengan Keahlian Full Stack Web Development</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---end profil--->
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 200">
+        <path fill="#a34363" fill-opacity="1" d="M0,64L48,58.7C96,53,192,43,288,58.7C384,75,480,117,576,128C672,139,768,117,864,96C960,75,1056,53,1152,64C1248,75,1344,117,1392,138.7L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+      </svg>
+      <!--Pengalaman-->
+
+      <section id="Project">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card h-70">
+                <img src="img/KM4.jpg.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Kegiatan KM</h5>
+                  <p class="card-text">Pada Hari jumat kita melaksakan pelatihan Ikatan Canggah digunakan untuk menyambung dua buah tongkat secara lurus. Penggunaan ikatan canggah seperti untuk membuat tiang bendera dengan sambungan tongkat.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card h-70">
+                <img src="img/workshop.jpg (2).jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Workshop metode penelitian</h5>
+                  <p class="card-text">Pelatihan ini dihadiri oleh 48 mahasiswa PTI dan PGSD semester 8 dan semester 6, serta 11 dosen yang turut memeriahkan acara tersebut. Para pemateri, Ita Fitriati, M.Pd., Agustinasari, M.Pd., Ika Irawati, M.Pd., dan Ihwanul Muslimin, M.Pd., seluruhnya berasal dari PTI STKIP Taman Siswa Bima, memberikan wawasan yang berharga kepada peserta dalam mengembangkan keterampilan presentasi dan metodologi penelitian.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card h-70">
+                <img src="img/arahan.jpg.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Pertemuan Bersama Rektor Tamsis</h5>
+                  <p class="card-text">Pada Pertemuan ini pak rektor Drs. Ibnul Khaldum M.S,si memberikan arahan kepada kami yang sudah lulus MSIB, memberikan dukung sepunuhnya kepada mahasiswa untuk selalu berkarya diluar kampus.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card h-70">
+                <img src="img/17_agustus.jpg.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">KKN</h5>
+                  <p class="card-text">Kami mahasiswa KKN menyelanggarakan kegiatan 17 agustus untuk masyarakat desa nata, Alhamdulillah kegiatan berjalan dengan lancar dan masyarakat pun sangat berantuasia untuk mengikuti lomba 17 agustus yang kami bangun.</p>
+                </div>
+              </div>
+          </div>
+      </section>
+      <!---end Pengamalam-->
+
+      <!---contact-->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 200">
+        <path fill="white" fill-opacity="1" d="M0,128L288,96L576,160L864,160L1152,160L1440,160L1440,320L1152,320L864,320L576,320L288,320L0,320Z"></path>
+      </svg>
+
+      <section id="contact">
+        <div class="mycomen">
+          <p class="tytel">Contact persol di bawah</p>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">Comments</label>
+          </div>
+          <div class="mybtn">
+            <button type="button" class="btn btn-dark">Kirim</button>
+            <button type="button" class="btn btn-outline-dark">batal</button>
+          </div>
+        </div>
+      </section>
+      <!---end contact-->
+
+      <!---header-->
+     
+      <div class="footer">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Profil</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pengalaman</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contact</a></li>
+          </ul>
+          <p class="text-center text-body-secondary">&copy; 2024 Julkifli</p>
+        </footer>
+      </div>
+      <!----end headar-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
